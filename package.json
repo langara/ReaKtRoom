@@ -3,10 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "noh.js": "^1.0.3",
     "react": "^16.8.3",
     "react-dom": "^16.8.3"
   },
   "devDependencies": {
+    "@kotlin-externals/jquery": "^3.2.0-0",
     "react-scripts-kotlin": "3.0.3"
   },
   "scripts": {
