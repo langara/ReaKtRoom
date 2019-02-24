@@ -34,8 +34,15 @@ class App : RComponent<RProps, RState>() {
 
         p(classes = "experiment") {}
 
-        p {
-            img(src = rzut) {}
+        div(classes = "office") {
+//            img(src = rzut) {}
+//            +"some office text"
+            div(classes = "green room") {}
+            div(classes = "yellow room") {}
+            div(classes = "devs room") {}
+            div(classes = "uis room") {}
+            div(classes = "sales room") {}
+            div(classes = "peoples room") {}
         }
     }
 

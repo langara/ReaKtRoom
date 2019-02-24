@@ -2,6 +2,86 @@ body {
   text-align: center;
 }
 
+.office {
+    margin: 5px;
+    border: solid;
+    background: url("../rzut_opt_4.svg") no-repeat center;
+    background-size: contain;
+    height: 60vh;
+}
+
+.green.room {
+    position: relative;
+    transform: rotate(63deg);
+    left: 45.9%;
+    top: 16.6%;
+    opacity: 80%;
+    width: 6%;
+    height: 7%;
+    background-color: #0f0a;
+    border: black solid 1px;
+}
+
+.yellow.room {
+    position: relative;
+    transform: rotate(63deg);
+    left: 45.9%;
+    top: 16.6%;
+    opacity: 80%;
+    width: 6%;
+    height: 7%;
+    background-color: #ff0a;
+    border: black solid 1px;
+}
+
+.devs.room {
+    position: relative;
+    transform: rotate(63deg);
+    left: 45.9%;
+    top: 16.6%;
+    opacity: 80%;
+    width: 6%;
+    height: 7%;
+    background-color: #f00a;
+    border: black solid 1px;
+}
+
+.uis.room {
+    position: relative;
+    transform: rotate(63deg);
+    left: 45.9%;
+    top: 16.6%;
+    opacity: 80%;
+    width: 6%;
+    height: 7%;
+    background-color: #f0fa;
+    border: black solid 1px;
+}
+
+.sales.room {
+    position: relative;
+    transform: rotate(63deg);
+    left: 45.9%;
+    top: 16.6%;
+    opacity: 80%;
+    width: 6%;
+    height: 7%;
+    background-color: #00fa;
+    border: black solid 1px;
+}
+
+.peoples.room {
+    position: relative;
+    transform: rotate(63deg);
+    left: 45.9%;
+    top: 16.6%;
+    opacity: 80%;
+    width: 6%;
+    height: 7%;
+    background-color: #000a;
+    border: black solid 1px;
+}
+
 .App-header {
   background-color: #000;
   height: 160px;
