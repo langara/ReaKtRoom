@@ -33,9 +33,10 @@ class App : RComponent<RProps, RState>() {
         }
 
         p(classes = "experiment") {}
+        canvas(classes = "experiment") {}
 
         div(classes = "office") {
-//            img(src = rzut) {}
+            img(src = rzut, classes = "rzut") {}
 //            +"some office text"
             div(classes = "green room") {}
             div(classes = "yellow room") {}
@@ -49,9 +50,18 @@ class App : RComponent<RProps, RState>() {
     override fun componentDidMount() {
 //        console.log(noh)
 //        console.log(jq)
-        val ex = jq(".experiment")[0]
+        val ex = jq("p.experiment")[0]
         console.log(ex)
         noh.h2("ExPeRiMeNT").attachToDOM(ex)
+
+        val canv = jq("canvas.experiment")[0]
+        val ctx = canv.getContext("2d")
+        ctx.fillStyle = "rgb(200, 0, 0)"
+        ctx.fillRect(10, 10, 50, 50)
+        ctx.fillStyle = "rgb(0, 0, 200, 0.5)"
+        ctx.fillRect(30, 30, 50, 50)
+        console.log(canv)
+        console.log(ctx)
     }
 }
 
